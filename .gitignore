@@ -1,0 +1,30 @@
+# Directorios de salida de compilación
+bin/
+obj/
+
+# Archivos de usuario
+*.suo
+*.user
+*.sln.docstates
+
+# Archivos de compilación
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.log
+
+# Otras carpetas/archivos generados
+*.sqlite
+
+# Dependencias de NuGet
+packages/
+*.nupkg
+!.nuget/
+*.paket/paket-files/
+
+# Entorno de desarrollo local
+.vscode/
+.vs/
+
